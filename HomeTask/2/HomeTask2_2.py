@@ -14,3 +14,10 @@ y = int (s/2 - sqrt(-4*p + (s*s)) /2)
 print(f' Первое задуманное число: {x}')
 print(f' Второе задуманное число: {y}')
 
+# s = int(input('Введите сумму двух чисел: '))
+# p = int(input('Введите произведение двух чисел: '))
+# for x in range (s):
+#     for y in range (p):
+#         if x+y == s and x*y==p:
+#             print (x,y)
+#             break

@@ -20,3 +20,5 @@ if count_orel < count_reshka:
     print(f'Минимальное количество переворотов: {count_orel}')
 else:
     print(f'Минимальное количество переворотов: {count_reshka}')
+
+# print (min(count_orel = 0,count_reshka = 0 ))
