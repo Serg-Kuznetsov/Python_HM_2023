@@ -16,4 +16,5 @@ for i in range(len(list1)):
         count += 1
     else:
         i += 1
-print(count)
+print(*list1)
+print(f'"{s}" встречается {count} раз(а)')

@@ -10,10 +10,11 @@
 n = int(input('Введите количество эелементов массива: '))
 list1 = [int(input()) for i in range(n)]
 x = int(input('Введите элемент поиска: '))
-for i in range(len(list1)):
-    if x-n[i]
-        print(n[i])
-    else:
-        i += 1
-
-
+raz = abs(list1[0]-x)
+y = list1[0]
+for i in list1:
+    if abs(i-x) < raz:
+        raz = abs(i-x)
+        y = i
+print(*list1)
+print(f'Ближайшее число: {y}')
