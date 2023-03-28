@@ -7,15 +7,11 @@
 # Output: 21
 
 def fib(n):
-    a = 0
-    a1 = 1
-    summ = 0
-    for i in range(2, n):
-        summ = (a+a1)
-        a = a1
-        a1 = summ
-    return summ
-
+    if n==2:
+        return 1
+    elif n==1:
+        return 0
+    return fib (n-1) + fib (n-2)
 
 n = int(input())
 print(fib(n))
