@@ -8,12 +8,23 @@
 # Output: 4 3
 
 
-def num(b):
-    a = int(input())
-    if  b ==1:
+# def num(b, a=''):
+#     a = a+input()
+#     if b == 1:
+#         return a
+#     return num(b-1, a)
+
+
+# b = int(input())
+# print(num(b)[::-1])
+
+
+def num(b, a=''):
+    a = input()
+    if b == 1:
         return a
-    return num(b-1)
+    return num(b-1, a) + a
 
 
 b = int(input())
-print (num(b))
+print(num(b))
