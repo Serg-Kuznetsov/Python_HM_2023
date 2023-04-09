@@ -9,7 +9,7 @@
 import functions
 
 while True:
-    print ('1. Вывод, 2. Добавление, 3. Поиск')
+    print ('1. Вывод, 2. Добавление, 3. Поиск 4. Удаление 5. Изменение')
     mode = int(input())
     if mode ==1:
         functions.show_data()
@@ -17,6 +17,10 @@ while True:
        functions.add_data()
     elif mode == 3:
         functions.find_data()
+    elif mode == 4:
+        functions.del_data()
+    elif mode == 5:
+        functions.change_data()
     else:
         break
 
